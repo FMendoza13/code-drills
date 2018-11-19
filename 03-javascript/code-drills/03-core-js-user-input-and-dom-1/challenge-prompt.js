@@ -27,11 +27,11 @@ var wantsSandwich = window.confirm("Would you like a sandwich?");
 
 
     // If the user did want a sandwich, use the `document.write` method to write "Your sandwich will be ready soon!" to the DOM
-if (true)
+if (wantsSandwich === true)
 document.write("Your sandwich will be ready soon!")
     
 // Else, say goodbye to the user using the name they gave us earlier
-else if
-(document.write ("Goodbye " + userName));
+else (wantsSandwich === false)
+ document.write("Goodbye " + userName) 
 
 

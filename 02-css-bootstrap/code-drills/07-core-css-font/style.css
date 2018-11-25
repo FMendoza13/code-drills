@@ -1,0 +1,29 @@
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h3 {
+    font-style: italic;
+    line-height: 30px;
+}
+
+#p1:hover {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+}
+
+#p2:hover {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 24px;
+}
+
+#p3:hover {
+    font-family: "Sedgwick Ave", cursive;
+    font-size: 24px;
+}
+
+#p4:hover {
+    font-family: "Indie Flower", cursive;
+    font-size: 24px;
+}
